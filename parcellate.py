@@ -61,6 +61,7 @@ mean_cm = np.array(np.mean(group_cm,0))
 # Gordon sorting
 cm_sort = conn_calc.gordon_sort(mean_cm)
 
+
 # Gordon plotting
 plt.rcParams['figure.figsize'] = [10, 10]
 plotting.rdbu_heatmap(cm_sort[0], vmax=1, vmin=-1, lines=cm_sort[1], center=0)
