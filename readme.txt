@@ -1,6 +1,6 @@
  Preproccessing
 
-Imaging data downloaded using javaws
+Imaging data downloaded using javaws 
 
 HCP pipelines downloaded to k1201869/hcp/code
 
